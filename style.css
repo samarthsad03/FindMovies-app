@@ -65,6 +65,27 @@
     min-height: 70vh;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
   }
 
+  .movie-container{
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+  }
+  .movie-poster img{
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5px 0 0 5px;
+  }
+  .movie-info p {
+    text-align: center;
+    font-size: 32px;
+    margin:  20px 0 12px 0;
+  }
+
   footer{
     text-align: center;
     background: #232f3e;
